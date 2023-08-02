@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang=ru>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style/index.css">
+  <script type="module" src="scripts/index.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      shopInit();
+    });
+  </script>
+</head>
+<body>
+<header class="header">
+<div class="index__container">
+  <nav class="header__navigation">
+  <a class="header__logo" href="#">Shop<span>Online</span></a>
+  <button class="header__btn">
+    Меню
+  </button>
+  <form>
+    <input class="header__search" type="search" name="search" placeholder="Я ищу...">
+    <button class="header__btn-search"></button>
+  </form>
+  <ul class="header__list">
+    <li>
+      <a class="header__link header__link-person" href="#">Профиль</a>
+    </li>
+    <li>
+      <a class="header__link header__link-shopping" href="#">Корзина</a>
+    </li>
+    <li>
+      <a class="header__link header__link-favorite" href="#">Избранное</a>
+    </li>
+  </ul>
+  </nav>
+</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="index__container">
+      <div class="hero__wrapper timer" data-deadline = "2023-08-28">
+        <h1 class="hero__title">-50% На все ноутбуки</h1>
+        <p class="hero__sale">До конца акции:</p>
+      </div>
+    </div>
+  </section>
+
+<section class="advertising">
+  <div class="index__container">
+    <div class="advertising__wrapper " >
+      <div class="advertising__item-1">
+        <a href="#" class="advertising__link-1">Книга - лучший подарок</a>
+      </div>
+      <div class="advertising__item-2">
+        <a class="advertising__link-2" href="#"> Время скидок</a>
+      </div>
+      <div class="advertising__item-3">
+        <a class="advertising__link-3" href="#"></a>
+      </div>
+      <div class="advertising__item-4">
+        <a class="advertising__link-4" href="#">Идеи новогодних подарков</a>
+      </div>
+      <div class="advertising__item-5">
+        <a class="advertising__link-5" href="#"></a>
+      </div>
+      <div class="advertising__item-6">
+        <a class="advertising__link-6" href="#">Выгодно в декабре!</a>
+      </div>
+      <div class="advertising__item-7">
+        <a class="advertising__link-7" href="#"></a>
+      </div>
+      <div class="advertising__item-8">
+        <a class="advertising__link-8" href="#"></a>
+      </div>
+      <div class="advertising__item-9">
+        <a class="advertising__link-9" href="#">На бытовую химию</a>
+      </div>
+      <div class="advertising__item-10"></div>
+    </div>
+  </div>
+</section>
+</main>
+</body>
+</html>

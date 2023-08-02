@@ -1,0 +1,18 @@
+.boots__title {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 700;
+  padding: 110px 0 70px;
+}
+
+
+
+.boots__text {
+  width: 1095px;
+  white-space: pre-wrap;
+}
+
+.boots__text-decor::first-line {
+  font-weight: 700;
+  color: #2d2d2d;
+}
